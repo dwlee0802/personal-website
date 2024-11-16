@@ -67,3 +67,38 @@ a:active {
   height: 100px;
   background-color: rgb(34, 34, 34);
 }
+
+.godot_logo {
+  width: 200px;
+  height: 200px;
+}
+
+.hcontainer {
+  display: flex; /* Flexbox layout */
+  flex-direction: row; /* Arrange children in a row (default) */
+  justify-content: flex-start; /* Align children to the left */
+  align-items: center; /* Vertically center items (optional) */
+  gap: 15px; /* Optional: space between elements */
+}
+
+.tool_image {
+  height: 80px;
+}
+
+.tool_image_invert {
+  height: 70px;
+  filter: invert(1);
+}
+
+.toolbox {
+  margin-bottom: 50px;
+}
+
+.tool_container:hover img {
+  transition: transform 0.5s ease;
+  transform: scale(1.2); /* Scale the image to 120% */
+}
+
+.tool_container {
+  transition: transform 1s ease;
+}
