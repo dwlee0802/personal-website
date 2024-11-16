@@ -1,4 +1,5 @@
 .pfp {
+  transition: transform 1s ease;
   width: 100%;
   object-fit: fill;
   border-radius: 50%;
@@ -13,6 +14,7 @@
 }
 
 .pfp_container:hover img {
+  transition: transform 1s ease;
   transform: scale(1.1); /* Scale the image to 120% */
 }
 
@@ -82,10 +84,12 @@ a:active {
 }
 
 .tool_image {
+  transition: transform 0.5s ease;
   height: 80px;
 }
 
 .tool_image_invert {
+  transition: transform 0.5s ease;
   height: 70px;
   filter: invert(1);
 }
