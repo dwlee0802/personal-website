@@ -1,58 +1,69 @@
 .pfp {
-    width: 200px;
-    height: 200px;
-    object-fit: fill;
-    border-radius: 50%;
-  }
+  width: 100%;
+  object-fit: fill;
+  border-radius: 50%;
+}
 
-  a {
-    color: skyblue;
-  }
+.pfp_container {
+  transition: transform 1s ease;
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
+  border-radius: 50%;
+}
 
-  a:active {
-    color: rgb(175, 245, 175); /* Green color when the link is being clicked */
-  }
+.pfp_container:hover img {
+  transform: scale(1.1); /* Scale the image to 120% */
+}
+
+a {
+  color: skyblue;
+}
+
+a:active {
+  color: rgb(175, 245, 175); /* Green color when the link is being clicked */
+}
 
 .container_home {
-    display: flex;
-    justify-content: center; /* Horizontally center */
-    align-items: center;     /* Vertically center */
-    height: 100vh;           /* Make the container take full viewport height */
-    flex-direction: column;
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 100vh; /* Make the container take full viewport height */
+  flex-direction: column;
 }
 
 .background {
-    background-color: rgb(34, 34, 34);
-    color: white;
+  background-color: rgb(34, 34, 34);
+  color: white;
 }
 
 .container_proj {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .title {
-    text-align: center;
+  text-align: center;
 }
 
 .preview-img {
-    height: 300px;
-    border-radius: 10px;
+  height: 300px;
+  border-radius: 10px;
 }
 
 .preview_desc {
-    text-align: right;
-    width: 500px;
+  text-align: right;
+  width: 500px;
 }
 
 .project_entry {
-    width: 500px;
-    margin-bottom: 50px;
+  width: 500px;
+  margin-bottom: 50px;
 }
 
 .nav_bar {
-    text-align: center;
-    height: 100px;
-    background-color: rgb(34, 34, 34);
+  text-align: center;
+  height: 100px;
+  background-color: rgb(34, 34, 34);
 }
